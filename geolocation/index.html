@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Geolocation</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="row blue z-depth-2">
+            <div class="col s12">
+                <h1 class="white-text">Geolocation</h1>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col s3">
+                    <div class="row">
+                        <h2 class="">Info</h2>
+                    </div>
+                    <div class="row">
+                        <form class="col s12">
+                            <div class="row">
+                                <div class="input-field col s8">
+                                    <input id="place" type="text">
+                                    <label for="place">Place</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s3">
+                                    <a id="search" class="waves-effect waves-light blue btn-small">find</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col s8">
+                    <div class="row">
+                        <div class="col s12">
+                            <h1>MAP</h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s12 divmap"></div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+
+
+</html>

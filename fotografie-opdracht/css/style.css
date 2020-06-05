@@ -1,0 +1,686 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+/*
+    Base
+*/
+
+.navbar-collapse{
+    padding-right: 300px;
+    font-size: 25px;
+}
+
+.navbar{
+    min-height: 110px;
+    background-color: #B4B7B5;
+}
+
+.length{
+    height: 125px;
+}
+
+.navbar-brand {
+    padding: 5px 10%;
+    height: 110px;
+    line-height: 10px;
+}
+
+.links{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    /*! font-style: normal; *!*!*!*/
+    padding-right: 80px;
+    padding-top: 90px;
+
+}
+
+.navbar-toggle {
+    /* (80px - button height 34px) / 2 = 23px */
+    margin-top: 23px;
+    padding: 9px 10px !important;
+}
+
+.btn-2 {
+    transition: 0.3s ease;
+    background: #b4b7b5;
+    color: #ffffff;
+    font-size: 25px;
+    text-decoration: none;
+    border-top: 4px solid #b4b7b5;
+    border-bottom: 4px solid #b4b7b5;
+    padding: 20px 0;
+    margin: 0 20px;
+}
+.btn-2:hover {
+    border-top: 4px solid #ffffff;
+    border-bottom: 4px solid #ffffff;
+    padding: 6px 0;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav > li > a {
+        /* (80px - line-height of 27px) / 2 = 26.5px */
+        padding-top: 26.5px;
+        padding-bottom: 26.5px;
+        line-height: 27px;
+    }
+}
+
+h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300 !important;
+    /*/ font-style: normal; *!*/
+}
+
+.background-color{
+    background-color: #EBEBEB;
+}
+
+/*
+   Footer
+*/
+
+.white-space{
+    margin-top: 20.4%;
+    height: 280px;
+    width: 100%;
+    background: #ebebeb;
+}
+
+.footer {
+    flex-shrink: 0;
+    height: 100px;
+    background-color: #E2E2E2;
+
+}
+
+.footer-text{
+    color: #020202;
+    bottom: 30px;
+    padding-top: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.s-mfooter{
+    position: absolute;
+    left: 50%;
+    margin-top: 10px;
+    transform: translate(-50%,-50%);
+}
+
+.s-mfooter a{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background: #020202;
+    color: #E2E2E2;
+    margin: 0 6px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    font-size: 22px;
+    text-decoration: none;
+}
+.s-mfooter a:hover{
+    background: #020202;
+}
+.s-mfooter a i{
+    transition: 0.4s all;
+}
+.s-mfooter a:hover > i{
+    transform: scale(1.6) rotate(25deg);
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .navbar-collapse{
+        padding-right: 100px;
+    }
+
+    .navbar {
+        min-height: 110px;
+        background-color: #B4B7B5;
+    }
+
+    .navbar-brand {
+        padding: 5px 10%;
+        height: 110px;
+        line-height: 10px;
+    }
+
+    .links{
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+        text-align: center;
+        padding-left: 120px;
+        padding-top: 5px;
+    }
+
+    .length{
+        height: 250px;
+    }
+
+    .btn-2 {
+        transition: 0.3s ease;
+        background: #b4b7b5;
+        color: #ffffff;
+        font-size: 15px;
+        text-decoration: none;
+        border-top: 4px solid #b4b7b5;
+        border-bottom: 4px solid #b4b7b5;
+        padding: 1px 0;
+        margin: 0 20px;
+    }
+    .btn-2:hover {
+        border-top: 4px solid #ffffff;
+        border-bottom: 4px solid #ffffff;
+        padding: 6px 0;
+    }
+
+    h1{
+        font-family: 'Lato', sans-serif;
+        font-weight: 300 !important;
+        text-align: center;
+        /*/ font-style: normal; *!*/
+    }
+
+    .white-space{
+        margin-top: 313%;
+        height: 150px;
+        width: 100%;
+        background: #ebebeb;
+    }
+
+    .footer {
+        flex-shrink: 0;
+        height: 100px;
+        background-color: #E2E2E2;
+    }
+
+    .footer-text{
+        color: #020202;
+        bottom: 30px;
+        padding-top: 15px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+    }
+
+    .s-mfooter{
+        position: absolute;
+        left: 50%;
+        margin-top: 10px;
+        transform: translate(-50%,-50%);
+    }
+
+    .s-mfooter a{
+        display: inline-flex;
+        width: 40px;
+        height: 40px;
+        background: #020202;
+        color: #E2E2E2;
+        margin: 0 6px;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+        transition: 0.4s;
+        font-size: 22px;
+        text-decoration: none;
+    }
+    .s-mfooter a:hover{
+        background: #020202;
+    }
+    .s-mfooter a i{
+        transition: 0.4s all;
+    }
+    .s-mfooter a:hover > i{
+        transform: scale(1.6) rotate(25deg);
+    }
+}
+
+
+/*
+    Index
+*/
+
+.carousel-item {
+    height: 83vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.s-m{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.s-m a{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background: #D1D1D1;
+    color: #020202;
+    margin: 0 6px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    font-size: 22px;
+    text-decoration: none;
+}
+.s-m a:hover{
+    background: #D1D1D1;
+}
+.s-m a i{
+    transition: 0.4s all;
+}
+.s-m a:hover > i{
+    transform: scale(1.6) rotate(25deg);
+}
+
+@media only screen and (max-width: 600px) {
+
+    .s-m{
+        position: absolute;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .s-m a{
+        display: inline-flex;
+        width: 40px;
+        height: 40px;
+        background: #D1D1D1;
+        color: #020202;
+        margin: 0 6px;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+        transition: 0.4s;
+        font-size: 22px;
+        text-decoration: none;
+    }
+    .s-m a:hover{
+        background: #D1D1D1;
+    }
+    .s-m a i{
+        transition: 0.4s all;
+    }
+    .s-m a:hover > i{
+        transform: scale(1.6) rotate(25deg);
+    }
+}
+
+/*
+    Werk
+*/
+
+.hero{
+    height: 83vh;
+    min-height: 350px;
+    background-color: #d5ddda;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.portretten{
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    height: 400px;
+    width: 280px;
+}
+
+.portretten-title{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700 !important;
+    color: #FFFFFF;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 400px;
+}
+
+.bedrijfsfotografie{
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 85%;
+    left: 40.5%;
+    height: 400px;
+    width: 280px;
+}
+
+.bedrijfs-title{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700 !important;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 360px;
+}
+
+.fotografie-title{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700 !important;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: -160px;
+}
+
+.autonoomwerk{
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 85%;
+    left: 70.5%;
+    height: 400px;
+    width: 280px;
+}
+
+.autonoom-title{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700 !important;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 360px;
+}
+
+.werk-title{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700 !important;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: -160px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .portretten{
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        top: 85%;
+        left: 13%;
+        height: 400px;
+        width: 280px;
+    }
+
+    .portretten-title{
+        font-family: 'Lato', sans-serif;
+        font-weight: 700 !important;
+        color: #FFFFFF;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 400px;
+    }
+
+    .bedrijfsfotografie{
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        top: 150%;
+        left: 13%;
+        height: 400px;
+        width: 280px;
+    }
+
+    .bedrijfs-title{
+        font-family: 'Lato', sans-serif;
+        font-weight: 700 !important;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 360px;
+    }
+
+    .fotografie-title{
+        font-family: 'Lato', sans-serif;
+        font-weight: 700 !important;
+        text-align: center;
+        vertical-align: middle;
+        margin-top: -160px;
+    }
+
+    .autonoomwerk{
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        top: 215%;
+        left: 13%;
+        height: 400px;
+        width: 280px;
+    }
+
+    .autonoom-title{
+        font-family: 'Lato', sans-serif;
+        font-weight: 700 !important;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 360px;
+    }
+
+    .werk-title{
+        font-family: 'Lato', sans-serif;
+        font-weight: 700 !important;
+        text-align: center;
+        vertical-align: middle;
+        margin-top: -160px;
+    }
+}
+
+
+/*
+    Over
+*/
+
+.overmijfoto{
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 17.3%;
+    left: 0%;
+    height: 1000px;
+    width: 759px;
+}
+
+.overmij{
+    background-color: #e2e2e2;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 17.3%;
+    right: 0%;
+    height: 1000px;
+    width: 760px;
+}
+
+.textvak{
+    background-color: #e2e2e2;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 28.3%;
+    float: right;
+    text-align: center;
+    right: 7.5%;
+    height: 600px;
+    width: 650px;
+}
+
+.overmij-title{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300 !important;
+    font-size: 60px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 400px;
+}
+
+.overmij-text{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400 !important;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.footer-overmij {
+    flex-shrink: 0;
+    height: 100px;
+    background-color: #E2E2E2;
+    margin-top: 65.5%;
+    position: relative;
+}
+
+.background-color2{
+    background-color: #e2e2e2;
+}
+
+@media only screen and (max-width: 600px) {
+    .overmijfoto{
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        top: 30%;
+        height: 490px;
+        width:  375px;
+    }
+
+    .overmij{
+        background-color: #e2e2e2;
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        top: 90%;
+        height: 490px;
+        width: 375px;
+    }
+
+    .overmij-title{
+        font-family: 'Lato', sans-serif;
+        font-weight: 300 !important;
+        font-size: 60px;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 200px;
+    }
+
+    .textvak{
+        background-color: #e2e2e2;
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        top: 28.3%;
+        left: 0%;
+        text-align: center;
+        height: 600px;
+        width: 375px;
+    }
+
+    .overmij-text{
+        font-family: 'Lato', sans-serif;
+        font-weight: 400 !important;
+        font-size: 20px;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .footer-overmij {
+        flex-shrink: 0;
+        height: 100px;
+        background-color: #E2E2E2;
+        margin-top: 400%;
+        position: relative;
+    }
+}
+
+/*
+    Contact
+*/
+
+.contact-intro{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400 !important;
+    background-color: #ebebeb;
+    color: #020202;
+    font-size: 20px;
+    height: 700px;
+    width: 600px;
+    margin-top: 5%;
+    margin-left: 30%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-intro{
+        font-family: 'Lato', sans-serif;
+        font-weight: 400 !important;
+        background-color: #ebebeb;
+        color: #020202;
+        font-size: 20px;
+        height: 700px;
+        width: 375px;
+        margin-top: 5%;
+        margin-left: 0%;
+        text-align: center;
+    }
+}
+
+/*
+    Portretten, bedrijfsfotografie en autonoomwerk
+*/
+
+.hero1{
+    height: 43vh;
+    min-height: 380px;
+    background-color: #d5ddda;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.intro{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400 !important;
+    background-color: #EBEBEB;
+    color: #020202;
+    font-size: 20px;
+    height: 160px;
+    width: 600px;
+    margin-top: 5%;
+    margin-left: 30%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .intro{
+        font-family: 'Lato', sans-serif;
+        font-weight: 400 !important;
+        background-color: #ebebeb;
+        color: #020202;
+        font-size: 20px;
+        height: 250px;
+        width: 375px;
+        margin-top: 5%;
+        margin-left: 0%;
+        text-align: center;
+    }
+
+}
+
+
+
