@@ -28,7 +28,7 @@ getLocation();
 
 var marker;
 var map;
-var API_KEY = "AIzaSyBHlzEXk1cGO65POSXz_AYW2DDmKuF6Fv4";
+var API_KEY = "PRIVATE";
 var mapScript = document.createElement('script');
 mapScript.setAttribute('src', 'https://maps.googleapis.com/maps/api/js?key='+API_KEY+'&callback=initMap' );
 mapScript.setAttribute('async', '' );
